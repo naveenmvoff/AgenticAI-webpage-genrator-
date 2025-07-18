@@ -1,0 +1,77 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+
+# Global ignores
+.DS_Store
+Thumbs.db
+
+# Node.js / Next.js (frontend: aiconversationalweb)
+aiconversationalweb/.next/
+aiconversationalweb/node_modules/
+aiconversationalweb/.env*
+aiconversationalweb/package-lock.json
+
+# Log files
+aiconversationalweb/npm-debug.log*
+aiconversationalweb/yarn-debug.log*
+aiconversationalweb/yarn-error.log*
+
+# VSCode
+.vscode/
+
+# Python backend (python-backend-for-ai)
+python-backend-for-ai/__pycache__/
+python-backend-for-ai/*.pyc
+python-backend-for-ai/.env
+python-backend-for-ai/.venv/
+python-backend-for-ai/env/
+python-backend-for-ai/venv/
+python-backend-for-ai/*.db
+python-backend-for-ai/*.sqlite3
+
+# OS/Editor generated
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
